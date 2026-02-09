@@ -1,0 +1,66 @@
+/* importing Itim font */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Itim";
+    color: #000000;
+}
+
+
+/* Nav Bar styling background colour, centring and size */
+nav {
+    background-color: #fbd623;
+    display: flex;
+    align-items: center;
+    height: 70px;
+   
+}
+
+/* Makes the logo move to the right */
+#logo {
+    margin-left: 20px;
+    margin-right: 400px;
+}
+
+/* Navigation links styling, evenly spaced */
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Removes link styling - Colour, underline */
+.navLinks a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+}
+
+/* Current page underline */
+.navLinks a.activePage {
+    text-decoration: underline; 
+}
+
+
+
+.mainText h1 {
+    margin-top: 30px;
+    font-size: 26px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* Paragraph Styles - Letter Spacing, Width, Line Height */
+.mainText p {
+    max-width: 800px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.4;
+
+}
