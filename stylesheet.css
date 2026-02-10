@@ -1,5 +1,5 @@
 /* importing Itim font */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body {
     margin: 0;
@@ -14,6 +14,7 @@ nav {
     display: flex;
     align-items: center;
     height: 70px;
+    font-family: sans-serif;
    
 }
 
@@ -42,11 +43,12 @@ nav {
 
 
 .mainText h1 {
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 35   px;
     text-decoration: underline;
     letter-spacing: 3px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 /* Paragraph Styles - Letter Spacing, Width, Line Height */
@@ -57,7 +59,7 @@ nav {
     text-align: center;
     margin: 0 auto;
     line-height: 1.4;
-
+    font-family: sans-serif;
 }
 
 
@@ -67,6 +69,7 @@ nav {
     text-decoration: underline;
     letter-spacing: 3px;
     text-align: center;
+    font-family: sans-serif;
 
 }
 
@@ -99,6 +102,90 @@ nav {
     border: 3px solid #ffd000;
     border-radius: 10px;
 }
+
+
+
+.costsText h1 {
+    margin-top: 60px;
+    font-size: 27   px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Paragraph Styles - Letter Spacing, Width, Line Height */
+.costsText p {
+    max-width: 1000px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* Table styling - Font, Border, Spacing, Row Colours */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+.costsImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.extraInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.extraInfo h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.extraInfo li {
+    font-size: 23px;
+
+}
+
+
+
+
 
 
 
