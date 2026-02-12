@@ -1,4 +1,4 @@
-/* importing Itim font */
+/* index.html Styling */
 
 
 body {
@@ -18,6 +18,23 @@ nav {
 }
 
 
+/* Hero Image Styling */
+.heroImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hero Image Border */
+.heroImage img {
+    border: 3px solid #ffd000;
+    border-radius: 10px;
+}
+
+
 /* Navigation links styling, evenly spaced */
 .navLinks {
     list-style: none;
@@ -32,6 +49,7 @@ nav {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 28px;
+    font-weight: bold;
 }
 
 /* Current page underline */
@@ -40,10 +58,10 @@ nav {
 }
 
 
-
+/* Main Text Header - Font Size, Underline, Centering */
 .mainText h1 {
     margin-top: 60px;
-    font-size: 35   px;
+    font-size: 35px;
     text-decoration: underline;
     letter-spacing: 3px;
     text-align: center;
@@ -60,6 +78,7 @@ nav {
 }
 
 
+/* Quick Links Section Header - Centering, Underline, Margining */
 .quickLinks h1 {
     margin-top: 50px;
     font-size: 30px;
@@ -69,10 +88,12 @@ nav {
 
 }
 
+/* Quick Links List Style Remover */
 .quickLinks ul {
     list-style: none;
 }
 
+/* Quick Links Link Styling + Centering */
 .quickLinks a{
     color: rgb(4, 0, 253);
     font-size: 23px;
@@ -80,30 +101,70 @@ nav {
     justify-content: center;
 }
 
+/* Hover effect for Quick Links */
 .quickLinks a:hover {
     font-size: 25px;
 }
 
 
-.heroImage {
+
+
+
+
+
+/* Steps.html */
+
+
+/* Steps List Styling */
+.stepsList {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     width: fit-content;
+}
+
+/* Header Styling for Steps List - Underline, Alignment and Margin */
+.stepsList h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+/* Steps List Text Width and Font Size */
+.stepsList li {
+    font-size: 23px;
+    width: 800px;
+}
+
+
+/* Pass Stamp Image Styling */
+.passImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.heroImage img {
-    border: 3px solid #ffd000;
-    border-radius: 10px;
-}
 
 
 
+
+
+
+
+
+/* Costs */
+
+/* Costs Page Main Header */
 .costsText h1 {
     margin-top: 60px;
-    font-size: 27   px;
+    font-size: 27px;
     text-decoration: underline;
     letter-spacing: 3px;
     text-align: center;
@@ -118,9 +179,6 @@ nav {
     margin: 0 auto;
     line-height: 1.4;
 }
-
-
-
 
 
 /* Table styling - Font, Border, Spacing, Row Colours */
@@ -139,12 +197,13 @@ td, th {
   padding: 8px;
 }
 
+/* Colour every other row */
 tr:nth-child(even) {
   background-color: #dddddd;
 }
 
 
-
+/* Styling the $5 Image */
 .costsImage {
     display: flex;
     justify-content: center;
@@ -153,6 +212,7 @@ tr:nth-child(even) {
     margin-right: auto;
 }
 
+/* Extra Information Container - for Steps.html & Restricted.html */
 .extraInfo {
     display: flex;
     justify-content: center;
@@ -162,6 +222,7 @@ tr:nth-child(even) {
     width: fit-content;
 }
 
+/* Extra Info Header */
 .extraInfo h1 {
     margin-top: 50px;
     font-size: 30px;
@@ -171,45 +232,12 @@ tr:nth-child(even) {
 
 }
 
+/* List for the extra information */
 .extraInfo li {
     font-size: 23px;
     width: 800px;
 }
 
-
-
-
-.stepsList {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-}
-
-.stepsList h1 {
-    margin-top: 50px;
-    font-size: 30px;
-    text-decoration: underline;
-    letter-spacing: 3px;
-    text-align: center;
-
-}
-
-.stepsList li {
-    font-size: 23px;
-    width: 800px;
-}
-
-
-.passImage {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 
